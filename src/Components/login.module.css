@@ -1,0 +1,92 @@
+.contaner {
+    background-color: #f3f3f3;
+    padding: 200px 0 250px 0;
+    text-align: center;
+}
+
+.contaner > div > form {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+}
+
+.contaner > div > form > button {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    background-color: #7c3ce8;
+    color: white;
+    font-family: iransanss;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contaner > div > h5 {
+    font-family: iransanss;
+    margin-top: 20px;
+}
+
+.contaner > div > form > span {
+    color: red;
+    font-family: iransanss;
+}
+@media (min-width:560px) {
+    
+    .contaner > h1 {
+        font-family: iransanss;
+        margin-bottom: 80px;
+        font-size: 50px;
+    }
+    
+    .contaner > div > form > label {
+        font-family: iransanss;
+        margin-left: 310px;
+    }
+    
+    .contaner > div > form > input {
+        direction: ltr;
+        width: 350px;
+        height: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 1px #7c3ce8 solid;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px;
+    }  
+}
+
+@media (max-width:560px) {
+    
+    
+    .contaner > h1 {
+        font-family: iransanss;
+        margin-bottom: 80px;
+        font-size: 40px;
+    }
+    
+    
+    
+    .contaner > div > form > label {
+        font-family: iransanss;
+        margin-left: 280px;
+    }
+    
+    .contaner > div > form > input {
+        direction: ltr;
+        width: 300px;
+        height: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 1px #7c3ce8 solid;
+        outline: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    
+}

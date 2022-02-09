@@ -1,0 +1,293 @@
+@media (min-width:1030px) {
+    .contaner {
+        height: 350px;
+        background-color: rgb(173, 173, 173);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contaner > div{
+        width:1200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(1) {
+        width: 40%;
+    }
+    .contaner  > div> div:nth-of-type(1) > div:nth-of-type(2) {
+        width: 40%;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(3) {
+        width: 20%;
+    }
+    .contaner > div > div:nth-of-type(1) > div > h1 {
+        font-family: IranSanss;
+        font-size: 20px;
+        color: rgb(54, 54, 54);
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > h1 > p {
+        display: inline-block;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #7c3ce8;
+        margin-bottom: 2px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > p {
+        width: 400px;
+        font-family: IranSanss;
+        color: black;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul {
+        width: 200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li {
+        font-family: IranSanss;
+        margin-bottom: 10px;
+        transition: all 200ms ease-in;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li:hover {
+        margin-right: 10px;
+    }
+    
+    
+    .contaner > div > div:nth-of-type(2) {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > p {
+        font-family: IranSanss;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img {
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img:nth-of-type(1) {
+        margin-right: 450px;
+    }
+    
+    
+}
+
+@media (min-width:660px) and (max-width:1030px) {
+    .contaner {
+        height: 350px;
+        background-color: rgb(173, 173, 173);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contaner > div{
+        width:1200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(1) {
+        width: 40%;
+    }
+    .contaner  > div> div:nth-of-type(1) > div:nth-of-type(2) {
+        width: 30%;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(3) {
+        width: 30%;
+    }
+    .contaner > div > div:nth-of-type(1) > div > h1 {
+        font-family: IranSanss;
+        font-size: 20px;
+        color: rgb(54, 54, 54);
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > h1 > p {
+        display: inline-block;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #7c3ce8;
+        margin-bottom: 2px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > p {
+        width: 280px;
+        font-family: IranSanss;
+        color: black;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul {
+        width: 200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li {
+        font-family: IranSanss;
+        margin-bottom: 10px;
+        transition: all 200ms ease-in;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li:hover {
+        margin-right: 10px;
+    }
+    
+    
+    .contaner > div > div:nth-of-type(2) {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > p {
+        font-family: IranSanss;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img {
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img:nth-of-type(1) {
+        margin-right: 100px;
+    }
+    
+    
+}
+
+@media (max-width:660px) {
+    .contaner {
+        background-color: rgb(173, 173, 173);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contaner > div{
+        width:1200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .contaner > div > div:nth-of-type(1) > div {
+        margin-bottom: 40px;
+    }
+
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(1) {
+        width: 100%;
+    }
+    .contaner  > div> div:nth-of-type(1) > div:nth-of-type(2) {
+        width: 100%;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div:nth-of-type(3) {
+        width: 100%;
+    }
+    .contaner > div > div:nth-of-type(1) > div > h1 {
+        font-family: IranSanss;
+        font-size: 20px;
+        color: rgb(54, 54, 54);
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > h1 > p {
+        display: inline-block;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #7c3ce8;
+        margin-bottom: 2px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > p {
+        width: 80%;
+        font-family: IranSanss;
+        color: black;
+        margin: 0 auto;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul {
+        width: 200px;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li {
+        font-family: IranSanss;
+        margin-bottom: 10px;
+        transition: all 200ms ease-in;
+    }
+    
+    .contaner > div > div:nth-of-type(1) > div > div > ul > li:hover {
+        margin-right: 10px;
+    }
+    
+    
+    .contaner > div > div:nth-of-type(2) {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin: 10px 0; 
+    }
+    
+    .contaner > div > div:nth-of-type(2) > p {
+        font-family: IranSanss;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img {
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .contaner > div > div:nth-of-type(2) > img:nth-of-type(1) {
+        margin-right: 80px;
+    }
+    
+    
+}

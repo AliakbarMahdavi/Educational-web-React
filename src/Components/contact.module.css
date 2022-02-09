@@ -1,0 +1,355 @@
+@media (min-width:1200px) {
+    .contaner > div {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > input {
+        width: 500px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        outline: none;
+        padding: 20px;
+        font-family: iransanss;
+        font-size: 20px;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > textarea {
+        width: 500px;
+        height: 200px;
+        outline: none;
+        border: none;
+        resize: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: iransanss;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .location > img {
+        width: 40px;
+    }
+    
+    .location > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-size: 15px;
+        margin-top: 5px;
+        font-weight: normal;
+        margin: 8px 2px 0 0;
+        
+    }
+    
+    .email {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        padding-right: 5px;
+    }
+    
+    .email > img {
+        width: 30px;
+    }
+    
+    .email > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-weight: normal;
+        font-size: 15px;
+        margin: 3px 10px 0 0;
+    }
+}
+
+@media (min-width: 780px) and (max-width:1200px) {
+    .contaner > div {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > input {
+        width: 350px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        outline: none;
+        padding: 20px;
+        font-family: iransanss;
+        font-size: 20px;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > textarea {
+        width: 350px;
+        height: 200px;
+        outline: none;
+        border: none;
+        resize: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: iransanss;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .location > img {
+        width: 40px;
+    }
+    
+    .location > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-size: 15px;
+        margin-top: 5px;
+        font-weight: normal;
+        margin: 8px 2px 0 0;
+        
+    }
+    
+    .email {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        padding-right: 5px;
+    }
+    
+    .email > img {
+        width: 30px;
+    }
+    
+    .email > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-weight: normal;
+        font-size: 15px;
+        margin: 3px 10px 0 0;
+    }
+}
+
+
+@media (min-width: 560px) and (max-width:780px) {
+    .contaner > div {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > input {
+        width: 200px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        outline: none;
+        padding: 20px;
+        font-family: iransanss;
+        font-size: 20px;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > textarea {
+        width: 200px;
+        height: 200px;
+        outline: none;
+        border: none;
+        resize: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: iransanss;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .location > img {
+        width: 40px;
+    }
+    
+    .location > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-size: 12px;
+        margin-top: 5px;
+        font-weight: normal;
+        margin: 8px 2px 0 0;
+        
+    }
+    
+    .email {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        padding-right: 5px;
+    }
+    
+    .email > img {
+        width: 30px;
+    }
+    
+    .email > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-weight: normal;
+        font-size: 12px;
+        margin: 3px 10px 0 0;
+    }
+}
+
+@media (max-width: 560px){
+    .contaner {
+        width: 100%;
+        background-color: #ebebeb;
+        padding: 100px 0 100px 0 !important;
+    }
+    
+    .contaner > div {
+        width: 100%;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .contaner > div > div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > input {
+        width: 200px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px !important;
+        outline: none;
+        padding: 20px;
+        font-family: iransanss;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > textarea {
+        width: 200px;
+        height: 200px;
+        outline: none;
+        border: none;
+        resize: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: iransanss;
+        margin: 0 auto;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px !important;
+    }
+    
+    .location > img {
+        width: 40px;
+    }
+    
+    .location > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-size: 12px;
+        margin-top: 5px;
+        font-weight: normal;
+        margin: 8px 2px 0 0;
+        
+    }
+    
+    .email {
+        width: 100%;
+        display: flex;
+        margin: 20px 0 10px 0;
+        justify-content: center;
+    }
+    
+    .email > img {
+        width: 30px;
+    }
+    
+    .email > h1 {
+        font-family: iransanss;
+        color: rgb(88, 88, 88);
+        font-weight: normal;
+        font-size: 12px;
+        margin: 3px 10px 0 0;
+    }
+
+    .contaner > div > div:nth-of-type(2) > div > form  > button {
+      margin: 20px auto !important;
+      margin-bottom: 100px !important;
+    }
+}
+
+.contaner {
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 150px 0 100px 0;
+}
+
+.contaner > div > div {
+    width: 50vw;
+}
+
+.contaner > div > div > h5 {
+    font-family: iransanss;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.contaner > div > div:nth-of-type(2) > h1 {
+    color: #7c3ce8;
+    font-family: iransanss;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.contaner > div > div:nth-of-type(2) > div  > form {
+    display: flex;
+    flex-flow: column;
+}
+
+.contaner > div > div:nth-of-type(2) > div > form  > label {
+    font-family: iransanss;
+    color: rgb(88, 88, 88);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contaner > div > div:nth-of-type(2) > div > form  > label > span {
+    color:  red;
+}
+
+.contaner > div > div:nth-of-type(2) > div > form  > button {
+    width: 100px;
+    height: 50px;
+    background-color: #7c3ce8;
+    outline: nonr;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: iransanss;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}

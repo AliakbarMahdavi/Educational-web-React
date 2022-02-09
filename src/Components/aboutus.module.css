@@ -1,0 +1,33 @@
+@media (min-width:1220px) {
+    .contaner > div {
+        width: 1200px;
+        margin: 0 auto;
+    }   
+}
+
+@media (max-width:1220px) {
+    .contaner > div {
+        width: 80%;
+        margin: 0 auto;
+    }   
+}
+.contaner {
+    padding-top: 120px;
+    padding-bottom: 166px;
+    background-color: #f3f3f3;
+}
+
+
+.contaner > div > h1 {
+    color: #7c3ce8;
+    font-family: iransanss;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contaner > div > p {
+    font-family: iransanss;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 15px;
+}
