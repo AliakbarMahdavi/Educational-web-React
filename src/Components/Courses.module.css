@@ -1,6 +1,7 @@
 .contaner {
     margin-top: 80px;
     padding: 80px 0 150px 0;
+    background-color: #f3f3f3;
 }
 
 .contaner > h1 {
