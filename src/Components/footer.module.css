@@ -103,7 +103,7 @@
     }
     
     .contaner > div{
-        width:1200px;
+        width:100%;
     }
     
     .contaner > div > div:nth-of-type(1) {
@@ -198,7 +198,7 @@
     }
     
     .contaner > div{
-        width:1200px;
+        width:100%;
     }
     
     .contaner > div > div:nth-of-type(1) {
@@ -229,6 +229,7 @@
         color: rgb(54, 54, 54);
         font-weight: normal;
         margin-bottom: 20px;
+        width: 100%;
     }
     
     .contaner > div > div:nth-of-type(1) > div > h1 > p {
@@ -278,16 +279,13 @@
     
     .contaner > div > div:nth-of-type(2) > p {
         font-family: IranSanss;
+        font-size: 12px;
     }
     
     .contaner > div > div:nth-of-type(2) > img {
-        width: 30px;
+        width: 20px;
         cursor: pointer;
     }
-    
-    .contaner > div > div:nth-of-type(2) > img:nth-of-type(1) {
-        margin-right: 80px;
-    }
-    
+   
     
 }

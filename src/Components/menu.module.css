@@ -29,6 +29,10 @@ header {
     top: 0;
 }
 
+.image {
+    display: none;
+}
+
 .logo {
     width: 400px;
     text-align: left;
@@ -83,11 +87,12 @@ header {
     margin-left: 10px;
 }
 
-.shopping > a > img {
+.shopping > a > img:nth-of-type(1) {
     width: 40px;
     margin-top: 20px;
     cursor: pointer;
 }
+
 
 .shopping > h1 {
     width: 20px;
@@ -107,6 +112,10 @@ header {
 .login {
     width: 500px;
     margin-left: 20px;
+}
+
+.login > a > img {
+    display: none;
 }
 
 .login > div {
@@ -130,5 +139,123 @@ header {
     font-weight: normal;
     line-height: 50px;
     text-align: center;
+}
+
+.shopping > img {
+    display: none;
+}
+
+
+@media (max-width:780px) {
+
+    header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-flow: row-reverse;
+        position: fixed;
+        z-index: 2;
+        box-shadow: 1px 1px 6px lightgray;
+        background-color: white;
+        top: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .shopping > a > img:nth-of-type(1) {
+        margin: 0;
+    }
+
+    .shopping {
+        text-align: right !important;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .shopping > h1 {
+        top: 45px;
+        right: 37px;
+    }
+    
+    .shopping > a {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: right;
+    }
+
+    .logo {
+        text-align: left;
+    }
+
+    .login {
+        margin: 0;
+        width: 120px;
+    }
+
+    .login > a > img {
+        display: inline-block;
+        width: 35px;
+        margin: 23px 20px 0 10px;
+    }
+    
+    .login > div {
+        display: none;
+    }
+
+    .image {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 15px 10px 0 0;
+        cursor: pointer;
+    }
+
+    .click {
+        width: 150px;
+        padding: 10px;
+        background-color: rgba( 200, 200, 200, 0.9);
+        position: absolute;
+        right: 0;
+        display: block !important;
+    }
+
+    .click > ul {
+        width: 100%;
+    }
+
+    .click > ul > li {
+        width: 100%;
+        height: 50px;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+
+    .click > ul > li:nth-of-type(1) {
+        font-family: IranSanss;
+        color: red;
+        font-size: 20px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .click > ul > li > a {
+        display: block;
+        font-family: IranSanss;
+        color: #464d54;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all 200ms linear;
+    }
+
+    .click > ul > li:hover > a {
+        color: green;
+    }
+
 }
 
