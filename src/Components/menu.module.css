@@ -215,7 +215,7 @@ header {
     }
 
     .click {
-        width: 150px;
+        width: 60%;
         padding: 10px;
         background-color: rgba( 200, 200, 200, 0.9);
         position: absolute;
@@ -225,15 +225,16 @@ header {
 
     .click > ul {
         width: 100%;
+        height: 400px;
     }
 
     .click > ul > li {
         width: 100%;
         height: 50px;
-        line-height: 80px;
         text-align: center;
         border-radius: 3px;
         margin: 0 auto;
+        margin-top: 5px;
     }
 
     .click > ul > li:nth-of-type(1) {
@@ -241,14 +242,16 @@ header {
         color: red;
         font-size: 20px;
         cursor: pointer;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .click > ul > li > a {
         display: block;
+        height: 50px;
+        line-height: 50px;
         font-family: IranSanss;
         color: #464d54;
-        font-size: 14px;
+        font-size: 17px;
         font-weight: bold;
         transition: all 200ms linear;
     }
