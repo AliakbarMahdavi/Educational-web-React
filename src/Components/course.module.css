@@ -1,11 +1,25 @@
-.contaner {
-    width: 350px;
-    height: 370px;
-    background-color: white;
-    border-radius: 10px;
-    margin:20px;
-    box-shadow: 1px 1px 5px rgb(177, 177, 177);
-    transition: all 150ms ease;
+@media (min-width:560px) {
+    .contaner {
+        width: 350px;
+        height: 370px;
+        background-color: white;
+        border-radius: 10px;
+        margin:20px;
+        box-shadow: 1px 1px 5px rgb(177, 177, 177);
+        transition: all 150ms ease;
+    }
+}
+
+@media (max-width:560px) {
+    .contaner {
+        width: 300px;
+        height: 340px;
+        background-color: white;
+        border-radius: 10px;
+        margin:20px;
+        box-shadow: 1px 1px 5px rgb(177, 177, 177);
+        transition: all 150ms ease;
+    }
 }
 
 .contaner:hover{
